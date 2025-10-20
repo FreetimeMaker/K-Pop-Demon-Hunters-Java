@@ -15,7 +15,6 @@
             android:name=".MainActivity"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:exported="true"
-            android:label="@string/title_activity_main"
             android:theme="@style/Theme.KPopDemonHunters.Fullscreen">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -23,6 +22,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".ui.characters.RumiActivity"
+            android:theme="@style/Theme.KPopDemonHunters.Fullscreen"/>
     </application>
 
 </manifest>
