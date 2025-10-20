@@ -1,31 +1,44 @@
 package com.freetime.kpdhj.ui.characters;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 import androidx.lifecycle.ViewModelProvider;
 
-import com.freetime.kpdhj.databinding.FragmentDashboardBinding;
+import com.freetime.kpdhj.R;
+import com.freetime.kpdhj.databinding.FragmentCharactersBinding;
 
 public class CharactersFragment extends Fragment {
 
-    private FragmentDashboardBinding binding;
+    private FragmentCharactersBinding binding;
 
+    @Override
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
-        CharactersViewModel dashboardViewModel =
+        CharactersViewModel charactersViewModel =
                 new ViewModelProvider(this).get(CharactersViewModel.class);
 
-        binding = FragmentDashboardBinding.inflate(inflater, container, false);
+        binding = FragmentCharactersBinding.inflate(inflater, container, false);
         View root = binding.getRoot();
 
-        final TextView textView = binding.textDashboard;
-        dashboardViewModel.getText().observe(getViewLifecycleOwner(), textView::setText);
+        // Example of observing ViewModel text
+        final TextView textView = binding.textCharacters;
+        charactersViewModel.getText().observe(getViewLifecycleOwner(), textView::setText);
+
+        // Hook up the Rumi button
+        Button rumiButton = binding.btnRumi;
+        rumiButton.setOnClickListener(v -> {
+            Intent intent = new Intent(getActivity(), RumiActivity.class);
+            startActivity(intent);
+        });
+
         return root;
     }
 
