@@ -10,18 +10,18 @@ import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 import androidx.lifecycle.ViewModelProvider;
 
-import com.freetime.kpdhj.databinding.FragmentNotificationsBinding;
+import com.freetime.kpdhj.databinding.FragmentMusicBinding;
 
 public class MusicFragment extends Fragment {
 
-    private FragmentNotificationsBinding binding;
+    private FragmentMusicBinding binding;
 
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
         MusicViewModel notificationsViewModel =
                 new ViewModelProvider(this).get(MusicViewModel.class);
 
-        binding = FragmentNotificationsBinding.inflate(inflater, container, false);
+        binding = FragmentMusicBinding.inflate(inflater, container, false);
         View root = binding.getRoot();
 
         final TextView textView = binding.textNotifications;

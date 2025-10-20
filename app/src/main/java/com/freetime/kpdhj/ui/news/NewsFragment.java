@@ -10,21 +10,21 @@ import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 import androidx.lifecycle.ViewModelProvider;
 
-import com.freetime.kpdhj.databinding.FragmentNotificationsBinding;
+import com.freetime.kpdhj.databinding.FragmentNewsBinding;
 
 public class NewsFragment extends Fragment {
 
-    private FragmentNotificationsBinding binding;
+    private FragmentNewsBinding binding;
 
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
         NewsViewModel notificationsViewModel =
                 new ViewModelProvider(this).get(NewsViewModel.class);
 
-        binding = FragmentNotificationsBinding.inflate(inflater, container, false);
+        binding = FragmentNewsBinding.inflate(inflater, container, false);
         View root = binding.getRoot();
 
-        final TextView textView = binding.textNotifications;
+        final TextView textView = binding.textNews;
         notificationsViewModel.getText().observe(getViewLifecycleOwner(), textView::setText);
         return root;
     }
