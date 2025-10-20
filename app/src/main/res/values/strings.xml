@@ -1,8 +1,5 @@
 <resources>
-    <string name="app_name">K-Pop Demon Hunters</string>
-    <string name="title_activity_main">MainActivity</string>
-    <string name="dummy_button">Dummy Button</string>
-    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="app_name">K-Pop Demon Hunters (Java)</string>
     <string name="title_home">Home</string>
     <string name="title_dashboard">Characters</string>
     <string name="title_notifications">Music</string>
