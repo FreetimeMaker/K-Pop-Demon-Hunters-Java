@@ -29,12 +29,12 @@ public class CharactersFragment extends Fragment {
         View root = binding.getRoot();
 
         // Example of observing ViewModel text
-        final TextView textView = binding.textCharacters;
+        final TextView textView = binding.rumiName;
         charactersViewModel.getText().observe(getViewLifecycleOwner(), textView::setText);
 
         // Hook up the Rumi button
-        Button rumiButton = binding.btnRumi;
-        rumiButton.setOnClickListener(v -> {
+        Button rumiInfoButton = binding.rumiInfoButton;
+        rumiInfoButton.setOnClickListener(v -> {
             Intent intent = new Intent(getActivity(), RumiActivity.class);
             startActivity(intent);
         });

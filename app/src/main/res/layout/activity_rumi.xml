@@ -1,6 +1,12 @@
-<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
 
     <LinearLayout
         android:orientation="vertical"
@@ -10,25 +16,104 @@
 
         <ImageView
             android:id="@+id/rumiImage"
-            android:layout_width="match_parent"
+            android:layout_width="200dp"
             android:layout_height="200dp"
             android:scaleType="centerCrop"
-            android:src="@drawable/rumi_placeholder"/>
+            android:src="@drawable/rumi"/>
 
-        <TextView
+        <com.google.android.material.textview.MaterialTextView
             android:id="@+id/rumiName"
-            android:text="Rumi Kang"
+            android:text="Rumi"
             android:textSize="24sp"
             android:textStyle="bold"
             android:layout_marginTop="12dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
 
-        <TextView
-            android:id="@+id/rumiBio"
-            android:text="Leader of HUNTR/X, half-demon heritage..."
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/rumiGroupBio"
+            android:text="Group: HUNTR/X (Leader and Main Vocalist)"
             android:layout_marginTop="8dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/rumiAgeBio"
+            android:text="Age: 22"
+            android:layout_marginTop="4dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/rumiOriginBio"
+            android:text="Origin: Seoul, South Korea"
+            android:layout_marginTop="4dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/rumiRoleBio"
+            android:text="Idol by day, demon hunter by night"
+            android:layout_marginTop="4dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/rumiBackStoryBio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Rumi is the charismatic leader of HUNTR/X, a globally successful K‑pop trio. Beneath her polished stage persona lies a secret: she’s descended from a powerful demon bloodline. Torn between her duty to protect humanity and the dark legacy she carries, Rumi fights to keep her powers in check while leading her group through supernatural battles." />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/rumiAbilitiesBio"
+            android:layout_marginTop="12dp"
+            android:text="Abilities: Uses her voice as a weapon — sonic energy attacks, Enhanced agility and reflexes, Can sense demonic energy, Her latent demon powers are unstable but growing stronger."
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/rumiPersonalityBio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:text="Personality: Protective, intuitive, and emotionally grounded, Often acts as the moral compass of the group, Struggles with identity and control, but never loses sight of her mission."  />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/rumiTriviaBio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:text="Trivia: Her signature color is crimson, Fans call her “The Siren” for her voice-based powers, She writes lyrics that hint at her inner conflict." />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/rumiBackToCharactersButton"
+            android:text="Go Back to the Characters"
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
     </LinearLayout>
-</ScrollView>
+    </ScrollView>
+
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/nav_host_fragment_activity_main"
+        android:name="androidx.navigation.fragment.NavHostFragment"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:defaultNavHost="true"
+        app:navGraph="@navigation/mobile_navigation"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/nav_view"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/nav_view"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="?android:attr/windowBackground"
+        app:menu="@menu/bottom_nav_menu"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

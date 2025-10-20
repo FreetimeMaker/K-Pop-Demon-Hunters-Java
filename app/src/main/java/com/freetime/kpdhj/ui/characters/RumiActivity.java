@@ -1,6 +1,9 @@
 package com.freetime.kpdhj.ui.characters;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.widget.Button;
+
 import androidx.appcompat.app.AppCompatActivity;
 import com.freetime.kpdhj.R;
 
@@ -9,6 +12,11 @@ public class RumiActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_rumi);
-        // Here you can load Rumi’s data, set up images, text, etc.
+
+        Button rumiInfoButton = findViewById(R.id.rumiBackToCharactersButton);
+        rumiInfoButton.setOnClickListener(v -> {
+            Intent intent = new Intent(RumiActivity.this, CharactersFragment.class);
+            startActivity(intent);
+        });
     }
 }

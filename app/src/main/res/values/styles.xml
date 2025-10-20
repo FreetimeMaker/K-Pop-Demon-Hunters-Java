@@ -2,8 +2,5 @@
 <style name="Theme.KPDHJ.Fullscreen" parent="Theme.MaterialComponents.DayNight.NoActionBar">
     <!-- Hide the status bar -->
     <item name="android:windowFullscreen">true</item>
-    <!-- Optional: make content draw behind system bars -->
-    <item name="android:windowLayoutInScreen">true</item>
-    <item name="android:windowLayoutInScreenDecor">true</item>
 </style>
 </resources>
