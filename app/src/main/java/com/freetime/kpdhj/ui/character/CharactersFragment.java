@@ -1,4 +1,4 @@
-package com.freetime.kpdhj.ui.characters;
+package com.freetime.kpdhj.ui.character;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -12,7 +12,6 @@ import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 import androidx.lifecycle.ViewModelProvider;
 
-import com.freetime.kpdhj.R;
 import com.freetime.kpdhj.databinding.FragmentCharactersBinding;
 
 public class CharactersFragment extends Fragment {
@@ -27,10 +26,6 @@ public class CharactersFragment extends Fragment {
 
         binding = FragmentCharactersBinding.inflate(inflater, container, false);
         View root = binding.getRoot();
-
-        // Example of observing ViewModel text
-        final TextView textView = binding.rumiName;
-        charactersViewModel.getText().observe(getViewLifecycleOwner(), textView::setText);
 
         // Hook up the Rumi button
         Button rumiInfoButton = binding.rumiInfoButton;

@@ -1,4 +1,4 @@
-package com.freetime.kpdhj.ui.characters;
+package com.freetime.kpdhj.ui.character;
 
 import android.content.Intent;
 import android.os.Bundle;

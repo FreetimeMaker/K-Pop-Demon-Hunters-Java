@@ -1,4 +1,4 @@
-package com.freetime.kpdhj.ui.characters;
+package com.freetime.kpdhj.ui.character;
 
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;

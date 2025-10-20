@@ -13,7 +13,7 @@
 
     <fragment
         android:id="@+id/navigation_character"
-        android:name="com.freetime.kpdhj.ui.characters.CharactersFragment"
+        android:name="com.freetime.kpdhj.ui.character.CharactersFragment"
         android:label="@string/title_dashboard"
         tools:layout="@layout/fragment_characters" />
 
