@@ -4,4 +4,7 @@
     <string name="title_dashboard">Characters</string>
     <string name="title_notifications">Music</string>
     <string name="title_news">News</string>
+    <string name="title_activity_rumi_music">RumiMusicActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
 </resources>

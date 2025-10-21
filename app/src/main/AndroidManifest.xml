@@ -23,10 +23,14 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity 
-            android:name=".ui.characters.RumiActivity"
+        <activity
+            android:name=".ui.character.RumiActivity"
             android:configChanges="orientation|keyboardHidden|screenSize"
-            android:theme="@style/Theme.KPopDemonHunters.Fullscreen"/>
+            android:theme="@style/Theme.KPDHJ.Fullscreen" />
+        <activity
+            android:name=".ui.character.RumiMusicActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:theme="@style/Theme.KPDHJ.Fullscreen" />
     </application>
 
 </manifest>
