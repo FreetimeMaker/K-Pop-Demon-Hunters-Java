@@ -1,38 +1,65 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/white"
-    android:theme="@style/ThemeOverlay.KPopDemonHunters.FullscreenContainer"
-    tools:context=".ui.character.RumiMusicActivity">
+    tools:context=".ui.music.RumiMusicActivity">
 
-    <!-- This FrameLayout insets its children based on system windows using
-         android:fitsSystemWindows. -->
-    <FrameLayout
+    <!-- Scrollable content -->
+    <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:fitsSystemWindows="true">
 
-        <ScrollView
+        <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent" >
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="24dp">
 
-            <LinearLayout
+            <!-- Title -->
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/rumiMusicTitle"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:orientation="vertical" >
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="🎶 Songs Featuring Rumi"
+                android:textAppearance="@style/TextAppearance.MaterialComponents.Headline6"
+                android:textColor="@android:color/white"
+                android:paddingBottom="16dp"/>
 
-                <com.google.android.material.textview.MaterialTextView
+                <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:padding="16dp"
-                    android:textAlignment="center"
-                    android:text="Listen to Songs Rumi is Featured In"
-                    android:textSize="16sp" />
-            </LinearLayout>
-        </ScrollView>
+                    android:orientation="horizontal"
+                    android:padding="12dp">
 
-    </FrameLayout>
+                    <ImageView
+                        android:id="@+id/songCover"
+                        android:layout_width="64dp"
+                        android:layout_height="64dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/free"/>
 
-</FrameLayout>
+                    <com.google.android.material.textview.MaterialTextView
+                        android:id="@+id/Free"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Free"
+                        android:textStyle="bold"
+                        android:textColor="@android:color/black"/>
+
+                    <com.google.android.material.button.MaterialButton
+                        android:id="@+id/FreeInfoButton"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Get More Infos about the Song"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginStart="auto"/>
+                </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
