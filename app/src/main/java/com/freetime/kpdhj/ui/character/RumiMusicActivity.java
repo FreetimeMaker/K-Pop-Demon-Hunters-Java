@@ -2,6 +2,7 @@ package com.freetime.kpdhj.ui.character;
 
 import android.os.Bundle;
 import android.view.View;
+import com.freetime.kpdhj.R;
 
 import androidx.appcompat.app.AppCompatActivity;
 
