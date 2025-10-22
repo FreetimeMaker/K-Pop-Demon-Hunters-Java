@@ -16,16 +16,22 @@ public class HomeFragment extends Fragment {
 
     private FragmentHomeBinding binding;
 
+    @Override
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
         HomeViewModel homeViewModel =
                 new ViewModelProvider(this).get(HomeViewModel.class);
 
-        binding = FragmentHomeBinding.inflate(inflater, container, false);
+        binding = FragmentCharactersBinding.inflate(inflater, container, false);
         View root = binding.getRoot();
 
-        final TextView textView = binding.textHome;
-        homeViewModel.getText().observe(getViewLifecycleOwner(), textView::setText);
+        // Hook up the Rumi button
+        Button rumiInfoButton = binding.rumiInfoButton;
+        rumiInfoButton.setOnClickListener(v -> {
+            Intent intent = new Intent(getActivity(), character.RumiActivity.class);
+            startActivity(intent);
+        });
+
         return root;
     }
 
