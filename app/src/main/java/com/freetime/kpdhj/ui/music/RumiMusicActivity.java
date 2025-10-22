@@ -1,4 +1,4 @@
-package com.freetime.kpdhj.ui.character;
+package com.freetime.kpdhj.ui.music;
 
 import android.os.Bundle;
 import android.view.View;
