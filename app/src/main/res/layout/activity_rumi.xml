@@ -82,6 +82,13 @@
             android:layout_marginTop="12dp"
             android:text="Trivia: Her signature color is crimson, Fans call her “The Siren” for her voice-based powers, She writes lyrics that hint at her inner conflict." />
 
+        <com.google.android.material.textview.MaterialTextView 
+            android:id="@+id/rumiVoicesBio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:text="" />
+
         <com.google.android.material.button.MaterialButton
             android:id="@+id/rumiMusicButton"
             android:text="Listen to Songs Rumi is Featured In"
