@@ -20,6 +20,7 @@
         <com.google.android.material.textview.MaterialTextView
             android:id="@+id/rumiName"
             android:text="Rumi"
+            android:textColor="@color/black"
             android:textSize="24sp"
             android:textStyle="bold"
             android:layout_marginTop="12dp"
@@ -28,6 +29,7 @@
 
         <com.google.android.material.textview.MaterialTextView
             android:id="@+id/rumiGroupBio"
+            android:textColor="@color/black"
             android:text="Group: HUNTR/X (Leader and Main Vocalist)"
             android:layout_marginTop="8dp"
             android:layout_width="wrap_content"
@@ -36,12 +38,14 @@
         <com.google.android.material.textview.MaterialTextView
             android:id="@+id/rumiAgeBio"
             android:text="Age: 22"
+            android:textColor="@color/black"
             android:layout_marginTop="4dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" />
 
         <com.google.android.material.textview.MaterialTextView
             android:id="@+id/rumiOriginBio"
+            android:textColor="@color/black"
             android:text="Origin: Seoul, South Korea"
             android:layout_marginTop="4dp"
             android:layout_width="wrap_content"
@@ -49,6 +53,7 @@
 
         <com.google.android.material.textview.MaterialTextView
             android:id="@+id/rumiRoleBio"
+            android:textColor="@color/black"
             android:text="Idol by day, demon hunter by night"
             android:layout_marginTop="4dp"
             android:layout_width="wrap_content"
@@ -56,6 +61,7 @@
 
         <com.google.android.material.textview.MaterialTextView
             android:id="@+id/rumiBackStoryBio"
+            android:textColor="@color/black"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
@@ -64,6 +70,7 @@
         <com.google.android.material.textview.MaterialTextView
             android:id="@+id/rumiAbilitiesBio"
             android:layout_marginTop="12dp"
+            android:textColor="@color/black"
             android:text="Abilities: Uses her voice as a weapon — sonic energy attacks, Enhanced agility and reflexes, Can sense demonic energy, Her latent demon powers are unstable but growing stronger."
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" />
@@ -73,6 +80,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="12dp"
+            android:textColor="@color/black"
             android:text="Personality: Protective, intuitive, and emotionally grounded, Often acts as the moral compass of the group, Struggles with identity and control, but never loses sight of her mission."  />
 
         <com.google.android.material.textview.MaterialTextView
@@ -80,12 +88,14 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="12dp"
+            android:textColor="@color/black"
             android:text="Trivia: Her signature color is crimson, Fans call her “The Siren” for her voice-based powers, She writes lyrics that hint at her inner conflict." />
 
         <com.google.android.material.textview.MaterialTextView 
             android:id="@+id/rumiVoicesBio"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:textColor="@color/black"
             android:layout_marginTop="12dp"
             android:text="" />
 
@@ -94,12 +104,14 @@
             android:text="Listen to Songs Rumi is Featured In"
             android:layout_marginTop="20dp"
             android:layout_width="wrap_content"
+            android:textColor="@color/black"
             android:layout_height="wrap_content" />
 
         <com.google.android.material.button.MaterialButton
             android:id="@+id/rumiBackToCharactersButton"
             android:text="Go Back to the Characters"
             android:layout_marginTop="20dp"
+            android:textColor="@color/black"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" />
     </LinearLayout>
