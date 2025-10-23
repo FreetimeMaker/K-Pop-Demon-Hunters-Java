@@ -21,5 +21,10 @@ public class RumiMusicActivity extends AppCompatActivity {
                         | View.SYSTEM_UI_FLAG_LAYOUT_HIDE_NAVIGATION
                         | View.SYSTEM_UI_FLAG_LAYOUT_STABLE
         );
+
+        Button FreeInfoButton = findViewById(R.id.FreeInfoButton);
+        FreeInfoButton.setOnClickListener(v -> 
+                startActivity(FreeActivity.getIntent(RumiMusicActivity.this))
+        );
     }
 }
