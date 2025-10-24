@@ -65,13 +65,13 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
-            android:text="Rumi is the charismatic leader of HUNTR/X, a globally successful K‑pop trio. Beneath her polished stage persona lies a secret: she’s descended from a powerful demon bloodline. Torn between her duty to protect humanity and the dark legacy she carries, Rumi fights to keep her powers in check while leading her group through supernatural battles." />
+            android:text="Rumi is the charismatic leader of HUNTR/X, a globally successful K-pop trio. Beneath her polished stage persona lies a secret: she’s descended from a powerful demon bloodline. Torn between her duty to protect humanity and the dark legacy she carries, Rumi fights to keep her powers in check while leading her group through supernatural battles." />
 
         <com.google.android.material.textview.MaterialTextView
             android:id="@+id/rumiAbilitiesBio"
             android:layout_marginTop="12dp"
             android:textColor="@color/black"
-            android:text="Abilities: Uses her voice as a weapon — sonic energy attacks, Enhanced agility and reflexes, Can sense demonic energy, Her latent demon powers are unstable but growing stronger."
+            android:text="Abilities: Uses her voice as a weapon - sonic energy attacks, Enhanced agility and reflexes, Can sense demonic energy, Her latent demon powers are unstable but growing stronger."
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" />
 

@@ -25,7 +25,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center"
-                android:text="🎶 Songs Featuring Rumi"
+                android:text="Songs Featuring Rumi"
                 android:textAppearance="@style/TextAppearance.MaterialComponents.Headline6"
                 android:textColor="@android:color/white"
                 android:paddingBottom="16dp"/>
