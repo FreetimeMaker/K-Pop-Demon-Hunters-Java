@@ -7,6 +7,7 @@ import android.widget.Button;
 
 import androidx.appcompat.app.AppCompatActivity;
 import com.freetime.kpdhj.R;
+import com.freetime.kpdhj.ui.music.RumiMusicActivity;
 
 public class RumiActivity extends AppCompatActivity {
     @Override

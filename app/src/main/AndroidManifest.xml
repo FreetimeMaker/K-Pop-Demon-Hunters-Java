@@ -30,6 +30,10 @@
             android:name=".ui.music.RumiMusicActivity"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:theme="@style/Theme.KPDHJ.Fullscreen" />
+        <activity
+            android:name=".ui.music.FreeActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:theme="@style/Theme.KPDHJ.Fullscreen" />
     </application>
 
 </manifest>

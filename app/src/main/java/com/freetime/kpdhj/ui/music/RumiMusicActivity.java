@@ -1,8 +1,12 @@
 package com.freetime.kpdhj.ui.music;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Button;
+
 import com.freetime.kpdhj.R;
+import com.freetime.kpdhj.ui.character.RumiActivity;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -23,8 +27,15 @@ public class RumiMusicActivity extends AppCompatActivity {
         );
 
         Button FreeInfoButton = findViewById(R.id.FreeInfoButton);
-        FreeInfoButton.setOnClickListener(v -> 
-                startActivity(FreeActivity.getIntent(RumiMusicActivity.this))
-        );
+        FreeInfoButton.setOnClickListener(v -> {
+            Intent intent = new Intent(RumiMusicActivity.this, FreeActivity.class);
+            startActivity(intent);
+        });
+
+        Button BackToRumiInfoButton = findViewById(R.id.BackToRumiInfoButton);
+        BackToRumiInfoButton.setOnClickListener(v -> {
+            Intent intent = new Intent(RumiMusicActivity.this, RumiActivity.class);
+            startActivity(intent);
+        });
     }
 }

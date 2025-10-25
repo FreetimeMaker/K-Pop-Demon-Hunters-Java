@@ -22,15 +22,8 @@ public class HomeFragment extends Fragment {
         HomeViewModel homeViewModel =
                 new ViewModelProvider(this).get(HomeViewModel.class);
 
-        binding = FragmentCharactersBinding.inflate(inflater, container, false);
+        binding = FragmentHomeBinding.inflate(inflater, container, false);
         View root = binding.getRoot();
-
-        // Hook up the Rumi button
-        Button rumiInfoButton = binding.rumiInfoButton;
-        rumiInfoButton.setOnClickListener(v -> {
-            Intent intent = new Intent(getActivity(), character.RumiActivity.class);
-            startActivity(intent);
-        });
 
         return root;
     }
