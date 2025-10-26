@@ -6,7 +6,6 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
-import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
@@ -27,10 +26,15 @@ public class CharactersFragment extends Fragment {
         binding = FragmentCharactersBinding.inflate(inflater, container, false);
         View root = binding.getRoot();
 
-        // Hook up the Rumi button
         Button rumiInfoButton = binding.rumiInfoButton;
         rumiInfoButton.setOnClickListener(v -> {
             Intent intent = new Intent(getActivity(), RumiActivity.class);
+            startActivity(intent);
+        });
+
+        Button zoeyInfoButton = binding.zoeyInfoButton;
+        zoeyInfoButton.setOnClickListener(v -> {
+            Intent intent = new Intent(getActivity(), ZoeyActivity.class);
             startActivity(intent);
         });
 

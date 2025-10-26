@@ -5,7 +5,7 @@
     android:layout_height="match_parent"
     android:background="@color/white"
     android:theme="@style/ThemeOverlay.KPopDemonHunters.FullscreenContainer"
-    tools:context=".ui.character.RumiActivity">
+    tools:context=".ui.character.ZoeyActivity">
 
     <!-- This FrameLayout insets its children based on system windows using
          android:fitsSystemWindows. -->
@@ -34,15 +34,15 @@
                     android:layout_height="wrap_content">
 
                     <ImageView
-                        android:id="@+id/rumiImage"
+                        android:id="@+id/zoeyImage"
                         android:layout_width="200dp"
                         android:layout_height="200dp"
                         android:scaleType="centerCrop"
-                        android:src="@drawable/rumi"/>
+                        android:src="@drawable/zoey"/>
 
                     <com.google.android.material.textview.MaterialTextView
-                        android:id="@+id/rumiName"
-                        android:text="Rumi"
+                        android:id="@+id/zoeyName"
+                        android:text="Zoey"
                         android:textColor="@color/black"
                         android:textSize="24sp"
                         android:textStyle="bold"
@@ -52,17 +52,17 @@
                         android:layout_height="wrap_content"/>
 
                     <com.google.android.material.textview.MaterialTextView
-                        android:id="@+id/rumiGroupBio"
+                        android:id="@+id/zoeyGroupBio"
                         android:textColor="@color/black"
-                        android:text="Group: HUNTR/X (Leader and Main Vocalist)"
+                        android:text="Group: "
                         android:layout_marginTop="8dp"
                         android:layout_width="wrap_content"
                         android:textAlignment="center"
                         android:layout_height="wrap_content"/>
 
                     <com.google.android.material.textview.MaterialTextView
-                        android:id="@+id/rumiAgeBio"
-                        android:text="Age: 22"
+                        android:id="@+id/zoeyAgeBio"
+                        android:text="Age: "
                         android:textColor="@color/black"
                         android:layout_marginTop="4dp"
                         android:layout_width="wrap_content"
@@ -70,61 +70,61 @@
                         android:layout_height="wrap_content" />
 
                     <com.google.android.material.textview.MaterialTextView
-                        android:id="@+id/rumiOriginBio"
+                        android:id="@+id/zoeyOriginBio"
                         android:textColor="@color/black"
-                        android:text="Origin: Seoul, South Korea"
+                        android:text="Origin: "
                         android:layout_marginTop="4dp"
                         android:layout_width="wrap_content"
                         android:textAlignment="center"
                         android:layout_height="wrap_content" />
 
                     <com.google.android.material.textview.MaterialTextView
-                        android:id="@+id/rumiRoleBio"
+                        android:id="@+id/zoeyRoleBio"
                         android:textColor="@color/black"
                         android:textAlignment="center"
-                        android:text="Role: Idol by day, demon hunter by night"
+                        android:text="Role: "
                         android:layout_marginTop="4dp"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content" />
 
                     <com.google.android.material.textview.MaterialTextView
-                        android:id="@+id/rumiBackStoryBio"
+                        android:id="@+id/zoeyBackStoryBio"
                         android:textColor="@color/black"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="16dp"
                         android:textAlignment="center"
-                        android:text="Backstory: Rumi is the charismatic leader of HUNTR/X, a globally successful K-pop trio. Beneath her polished stage persona lies a secret: she’s descended from a powerful demon bloodline. Torn between her duty to protect humanity and the dark legacy she carries, Rumi fights to keep her powers in check while leading her group through supernatural battles." />
+                        android:text="Backstory: " />
 
                     <com.google.android.material.textview.MaterialTextView
-                        android:id="@+id/rumiAbilitiesBio"
+                        android:id="@+id/zoeyAbilitiesBio"
                         android:layout_marginTop="12dp"
                         android:textColor="@color/black"
                         android:textAlignment="center"
-                        android:text="Abilities: Uses her voice as a weapon - sonic energy attacks, Enhanced agility and reflexes, Can sense demonic energy, Her latent demon powers are unstable but growing stronger."
+                        android:text="Abilities: "
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content" />
 
                     <com.google.android.material.textview.MaterialTextView
-                        android:id="@+id/rumiPersonalityBio"
+                        android:id="@+id/zoeyPersonalityBio"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:textAlignment="center"
                         android:layout_marginTop="12dp"
                         android:textColor="@color/black"
-                        android:text="Personality: Protective, intuitive, and emotionally grounded, Often acts as the moral compass of the group, Struggles with identity and control, but never loses sight of her mission."  />
+                        android:text="Personality: "  />
 
                     <com.google.android.material.textview.MaterialTextView
-                        android:id="@+id/rumiTriviaBio"
+                        android:id="@+id/zoeyTriviaBio"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="12dp"
                         android:textAlignment="center"
                         android:textColor="@color/black"
-                        android:text="Trivia: Her signature color is crimson, Fans call her “The Siren” for her voice-based powers, She writes lyrics that hint at her inner conflict." />
+                        android:text="Trivia: " />
 
                     <com.google.android.material.textview.MaterialTextView
-                        android:id="@+id/rumiVoicesBio"
+                        android:id="@+id/zoeyVoicesBio"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:textAlignment="center"
@@ -132,15 +132,15 @@
                         android:layout_marginTop="12dp" />
 
                     <com.google.android.material.button.MaterialButton
-                        android:id="@+id/rumiMusicButton"
-                        android:text="Listen to Songs Rumi is Featured In"
+                        android:id="@+id/zoeyMusicButton"
+                        android:text="Listen to Songs Zoey is Featured In"
                         android:layout_marginTop="20dp"
                         android:layout_width="wrap_content"
                         android:textAlignment="center"
                         android:layout_height="wrap_content" />
 
                     <com.google.android.material.button.MaterialButton
-                        android:id="@+id/rumiBackToCharactersButton"
+                        android:id="@+id/zoeyBackToCharactersButton"
                         android:text="Go Back to the Characters"
                         android:layout_marginTop="20dp"
                         android:textAlignment="center"

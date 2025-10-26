@@ -5,16 +5,16 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-import com.freetime.kpdhj.R;
-import com.freetime.kpdhj.ui.character.RumiActivity;
-
 import androidx.appcompat.app.AppCompatActivity;
 
-public class RumiMusicActivity extends AppCompatActivity {
+import com.freetime.kpdhj.R;
+import com.freetime.kpdhj.ui.character.ZoeyActivity;
+
+public class ZoeyMusicActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_rumi_music);
+        setContentView(R.layout.activity_zoey_music);
 
         // Immersive fullscreen
         getWindow().getDecorView().setSystemUiVisibility(
@@ -26,21 +26,15 @@ public class RumiMusicActivity extends AppCompatActivity {
                         | View.SYSTEM_UI_FLAG_LAYOUT_STABLE
         );
 
-        Button FreeInfoButton = findViewById(R.id.FreeInfoButton);
-        FreeInfoButton.setOnClickListener(v -> {
-            Intent intent = new Intent(RumiMusicActivity.this, FreeRumiActivity.class);
-            startActivity(intent);
-        });
-
         Button HIDInfoButton = findViewById(R.id.HIDInfoButton);
         HIDInfoButton.setOnClickListener(v -> {
-            Intent intent = new Intent(RumiMusicActivity.this, HID_RumiActivity.class);
+            Intent intent = new Intent(ZoeyMusicActivity.this, HID_ZoeyActivity.class);
             startActivity(intent);
         });
 
-        Button BackToRumiInfoButton = findViewById(R.id.BackToRumiInfoButton);
-        BackToRumiInfoButton.setOnClickListener(v -> {
-            Intent intent = new Intent(RumiMusicActivity.this, RumiActivity.class);
+        Button BackToZoeyInfoButton = findViewById(R.id.BackToZoeyInfoButton);
+        BackToZoeyInfoButton.setOnClickListener(v -> {
+            Intent intent = new Intent(ZoeyMusicActivity.this, ZoeyActivity.class);
             startActivity(intent);
         });
     }

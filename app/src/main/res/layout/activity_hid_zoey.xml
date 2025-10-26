@@ -5,7 +5,7 @@
     android:layout_height="match_parent"
     android:background="@color/white"
     android:theme="@style/ThemeOverlay.KPopDemonHunters.FullscreenContainer"
-    tools:context=".ui.music.FreeActivity">
+    tools:context=".ui.music.HID_ZoeyActivity">
 
     <!-- This FrameLayout insets its children based on system windows using
          android:fitsSystemWindows. -->
@@ -26,14 +26,15 @@
                 android:layout_height="wrap_content"
                 android:textColor="@color/black"
                 android:textAlignment="center"
-                android:text="Get more Infos about the Song Free"/>
+                android:text="Get more Infos about the Song How It’s Done"/>
 
             <com.google.android.material.button.MaterialButton
-                android:id="@+id/BackToRMAButton"
+                android:id="@+id/BackToZMAButton"
+                android:layout_marginTop="16dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textAlignment="center"
-                android:text="Go Back to the Songs that Rumi is Featured In"/>
+                android:text="Go Back to the Songs that Zoe is Featured In"/>
         </LinearLayout>
     </FrameLayout>
 

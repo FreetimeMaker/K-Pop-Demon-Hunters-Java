@@ -1,20 +1,20 @@
 package com.freetime.kpdhj.ui.music;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
+import androidx.appcompat.app.AppCompatActivity;
+
 import com.freetime.kpdhj.R;
 
 
-public class FreeActivity extends AppCompatActivity {
+public class HID_RumiActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_free);
+        setContentView(R.layout.activity_hid_rumi);
 
         // Immersive fullscreen
         getWindow().getDecorView().setSystemUiVisibility(
@@ -28,7 +28,7 @@ public class FreeActivity extends AppCompatActivity {
 
         Button BackToRMAButton = findViewById(R.id.BackToRMAButton);
         BackToRMAButton.setOnClickListener(v -> {
-            Intent intent = new Intent(FreeActivity.this, RumiMusicActivity.class);
+            Intent intent = new Intent(HID_RumiActivity.this, RumiMusicActivity.class);
             startActivity(intent);
         });
     }

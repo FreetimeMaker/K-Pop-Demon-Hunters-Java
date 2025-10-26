@@ -25,13 +25,44 @@
                 android:layout_height="wrap_content"
                 android:textAlignment="center"
                 android:textStyle="bold"
-                android:textSize="30sp"
+                android:textSize="40sp"
                 android:textColor="@color/black"
                 android:text="Here you can see the latest news about the App!"/>
 
             <com.google.android.material.textview.MaterialTextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:layout_marginTop="16dp"
+                android:textSize="30sp"
+                android:textColor="@color/black"
+                android:text="Whats new in Version 1.0.4?"/>
+
+            <com.google.android.material.textview.MaterialTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:text="The Characters Zoe and Music Featuring Zoe with How It’s Done and Music Featuring Rumi was extended with How It’s Done!"/>
+
+            <com.google.android.material.textview.MaterialTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:layout_marginTop="16dp"
+                android:textSize="30sp"
+                android:textColor="@color/black"
+                android:text="Whats new in Version 1.0.3?"/>
+
+            <com.google.android.material.textview.MaterialTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
                 android:textAlignment="center"
                 android:textStyle="bold"
                 android:textSize="20sp"
