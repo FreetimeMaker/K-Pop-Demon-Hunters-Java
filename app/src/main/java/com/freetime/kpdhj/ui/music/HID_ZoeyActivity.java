@@ -29,7 +29,7 @@ public class HID_ZoeyActivity extends AppCompatActivity {
 
         Button BackToZMAButton = findViewById(R.id.BackToZMAButton);
         BackToZMAButton.setOnClickListener(v -> {
-            Intent intent = new Intent(HID_ZoeyActivity.this, ZoeyActivity.class);
+            Intent intent = new Intent(HID_ZoeyActivity.this, ZoeyMusicActivity.class);
             startActivity(intent);
         });
     }
