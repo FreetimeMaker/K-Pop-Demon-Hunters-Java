@@ -26,7 +26,7 @@ public class FreeActivity extends AppCompatActivity {
                         | View.SYSTEM_UI_FLAG_LAYOUT_STABLE
         );
 
-        Button BackToMFButton = findViewById(R.id.BackToMFAButton);
+        Button BackToMFButton = findViewById(R.id.BackToMFButton);
         BackToMFButton.setOnClickListener(v -> {
             Intent intent = new Intent(FreeActivity.this, MainActivity.class);
             startActivity(intent);
