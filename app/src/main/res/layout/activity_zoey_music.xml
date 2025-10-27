@@ -62,7 +62,7 @@
                             android:id="@+id/hidBackTXT"
                             android:layout_width="125dp"
                             android:layout_height="wrap_content"
-                            android:text="How It’s Done"
+                            android:text="How It's Done"
                             android:textAlignment="center"
                             android:textSize="18sp"
                             android:textStyle="bold"

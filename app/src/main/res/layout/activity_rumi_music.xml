@@ -92,7 +92,7 @@
                             android:id="@+id/HID"
                             android:layout_width="125dp"
                             android:layout_height="wrap_content"
-                            android:text="How It’s Done"
+                            android:text="How It's Done"
                             android:textSize="18sp"
                             android:textAlignment="center"
                             android:textStyle="bold"

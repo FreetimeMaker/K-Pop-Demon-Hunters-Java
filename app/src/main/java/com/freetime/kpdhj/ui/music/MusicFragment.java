@@ -24,6 +24,11 @@ public class MusicFragment extends Fragment {
         binding = FragmentMusicBinding.inflate(inflater, container, false);
         View root = binding.getRoot();
 
+        Button FreeInfoButton = binding.FreeInfoButton;
+        FreeInfoButton.setOnClickListener(v -> {
+            Intent intent = new Intent(getActivity(), FreeActivity.class);
+            startActivity(intent);
+
         return root;
     }
 
