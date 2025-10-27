@@ -37,7 +37,7 @@
                 android:layout_height="wrap_content"
                 android:textColor="@color/black"
                 android:textAlignment="center"
-                android:text="Get more Infos about the Song How It’s Done"/>
+                android:text="Get more Infos about the Song How It's Done"/>
 
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/BackToZMAButton"
@@ -45,7 +45,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textAlignment="center"
-                android:text="Go Back to the Songs that Zoe is Featured In"/>
+                android:text="Go Back to the Songs that Zoey is Featured In"/>
                 </LinearLayout>
             </ScrollView>
         </LinearLayout>

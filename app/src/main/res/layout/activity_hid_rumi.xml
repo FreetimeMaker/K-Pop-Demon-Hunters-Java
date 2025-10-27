@@ -37,7 +37,7 @@
                 android:layout_height="wrap_content"
                 android:textColor="@color/black"
                 android:textAlignment="center"
-                android:text="Get more Infos about the Song How It’s Done"/>
+                android:text="Get more Infos about the Song How It's Done"/>
 
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/BackToRMAButton"
