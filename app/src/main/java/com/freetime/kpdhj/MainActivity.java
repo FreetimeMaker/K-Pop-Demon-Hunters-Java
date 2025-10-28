@@ -1,3 +1,18 @@
+package com.freetime.kpdhj;
+
+import android.os.Bundle;
+import android.view.View;
+
+import com.google.android.material.bottomnavigation.BottomNavigationView;
+
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.navigation.NavController;
+import androidx.navigation.Navigation;
+import androidx.navigation.ui.AppBarConfiguration;
+import androidx.navigation.ui.NavigationUI;
+
+import com.freetime.kpdhj.databinding.ActivityMainBinding;
+
 public class MainActivity extends AppCompatActivity {
 
     private ActivityMainBinding binding;
@@ -16,7 +31,7 @@ public class MainActivity extends AppCompatActivity {
                         | View.SYSTEM_UI_FLAG_HIDE_NAVIGATION);
 
         AppBarConfiguration appBarConfiguration = new AppBarConfiguration.Builder(R.id.navigation_home, R.id.navigation_character, R.id.navigation_music, R.id.navigation_news)
-        .build();
+                .build();
 
         NavController navController =
                 Navigation.findNavController(this, R.id.nav_host_fragment_activity_main);
