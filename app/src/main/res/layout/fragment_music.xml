@@ -44,7 +44,7 @@
 
                 <com.google.android.material.textview.MaterialTextView
                     android:id="@+id/Free"
-                    android:layout_width="75dp"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Free"
                     android:textSize="24sp"
@@ -54,7 +54,37 @@
 
                 <com.google.android.material.button.MaterialButton
                     android:id="@+id/FreeInfoButton"
-                    android:layout_width="150dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center"
+                    android:text="Get More Infos about the Song" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="16dp">
+
+                <ImageView
+                    android:id="@+id/hidCover"
+                    android:layout_width="55dp"
+                    android:layout_height="55dp"
+                    android:src="@drawable/hid"/>
+
+                <com.google.android.material.textview.MaterialTextView
+                    android:id="@+id/HID"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="How It's Done"
+                    android:textSize="24sp"
+                    android:textAlignment="center"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"/>
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/HIDInfoButton"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textAlignment="center"
                     android:text="Get More Infos about the Song" />

@@ -105,9 +105,9 @@
                             android:textAlignment="center"
                             android:text="Go Back to the Infos about Zoey" />
                     </LinearLayout>
+
                 </LinearLayout>
             </ScrollView>
         </LinearLayout>
     </FrameLayout>
-
 </FrameLayout>

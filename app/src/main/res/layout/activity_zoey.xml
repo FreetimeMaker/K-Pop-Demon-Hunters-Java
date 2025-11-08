@@ -54,7 +54,7 @@
                     <com.google.android.material.textview.MaterialTextView
                         android:id="@+id/zoeyGroupBio"
                         android:textColor="@color/black"
-                        android:text="Group: "
+                        android:text="Group: HUNTR/X ()"
                         android:layout_marginTop="8dp"
                         android:layout_width="wrap_content"
                         android:textAlignment="center"
@@ -129,7 +129,8 @@
                         android:layout_height="wrap_content"
                         android:textAlignment="center"
                         android:textColor="@color/black"
-                        android:layout_marginTop="12dp" />
+                        android:layout_marginTop="12dp"
+                        android:text="Korean Voice Actor: , Singing Voice Actor: REI AMI"/>
 
                     <com.google.android.material.button.MaterialButton
                         android:id="@+id/zoeyMusicButton"
@@ -148,9 +149,6 @@
                         android:layout_height="wrap_content" />
                 </LinearLayout>
             </ScrollView>
-
-
         </LinearLayout>
     </FrameLayout>
-
 </FrameLayout>
