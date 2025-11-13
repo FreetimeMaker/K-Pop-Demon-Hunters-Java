@@ -61,7 +61,7 @@
                 android:textStyle="bold"
                 android:textSize="40sp"
                 android:textColor="@color/black"
-                android:text="Added a Few Things"/>
+                android:text="Changed a Few Things"/>
 
             <com.google.android.material.textview.MaterialTextView
                 android:layout_width="match_parent"
