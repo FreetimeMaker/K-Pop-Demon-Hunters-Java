@@ -54,7 +54,7 @@
                     <com.google.android.material.textview.MaterialTextView
                         android:id="@+id/zoeyGroupBio"
                         android:textColor="@color/black"
-                        android:text="Group: HUNTR/X ()"
+                        android:text="Group: HUNTR/X (Vocalist &amp; Lyricist)"
                         android:layout_marginTop="8dp"
                         android:layout_width="wrap_content"
                         android:textAlignment="center"
@@ -62,7 +62,7 @@
 
                     <com.google.android.material.textview.MaterialTextView
                         android:id="@+id/zoeyAgeBio"
-                        android:text="Age: "
+                        android:text="Age: 21"
                         android:textColor="@color/black"
                         android:layout_marginTop="4dp"
                         android:layout_width="wrap_content"
@@ -72,7 +72,7 @@
                     <com.google.android.material.textview.MaterialTextView
                         android:id="@+id/zoeyOriginBio"
                         android:textColor="@color/black"
-                        android:text="Origin: "
+                        android:text="Origin: Los Angeles, California, USA"
                         android:layout_marginTop="4dp"
                         android:layout_width="wrap_content"
                         android:textAlignment="center"
@@ -82,7 +82,7 @@
                         android:id="@+id/zoeyRoleBio"
                         android:textColor="@color/black"
                         android:textAlignment="center"
-                        android:text="Role: "
+                        android:text="Role: Pop idol and demon hunter"
                         android:layout_marginTop="4dp"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content" />
@@ -94,14 +94,14 @@
                         android:layout_height="wrap_content"
                         android:layout_marginTop="16dp"
                         android:textAlignment="center"
-                        android:text="Backstory: " />
+                        android:text="Backstory: Zoey grew up in a Korean-American household where her artistic side was often misunderstood. She found refuge in songwriting, channeling her emotions into lyrics that now power HUNTR/X’s most iconic tracks. As a demon hunter, she’s impulsive but fiercely loyal, often acting on instinct — which sometimes leads to trouble, but also breakthroughs." />
 
                     <com.google.android.material.textview.MaterialTextView
                         android:id="@+id/zoeyAbilitiesBio"
                         android:layout_marginTop="12dp"
                         android:textColor="@color/black"
                         android:textAlignment="center"
-                        android:text="Abilities: "
+                        android:text="Abilities: Can manipulate sound waves through lyrical incantation. Uses rhythm-based attacks in combat. Has a unique ability to “disarm” demons emotionally through song. Occasionally shifts into stylized cartoon forms during high-energy moments."
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content" />
 
@@ -112,7 +112,7 @@
                         android:textAlignment="center"
                         android:layout_marginTop="12dp"
                         android:textColor="@color/black"
-                        android:text="Personality: "  />
+                        android:text="Personality: Bubbly, chaotic, and emotionally raw. Speaks in rapid-fire ideas and metaphors. Deeply empathetic, though she hides it behind humor. Known for shouting “Popcorn!” in battle — a fan-favorite catchphrase"  />
 
                     <com.google.android.material.textview.MaterialTextView
                         android:id="@+id/zoeyTriviaBio"
@@ -121,7 +121,7 @@
                         android:layout_marginTop="12dp"
                         android:textAlignment="center"
                         android:textColor="@color/black"
-                        android:text="Trivia: " />
+                        android:text="Trivia: Her signature look includes black space buns, a turquoise tank top, and purple pants. She’s voiced by Ji-young Yoo. Her lyrics often reference dreams, memory, and identity. Fans say she’s the “heart on sleeve” of the group" />
 
                     <com.google.android.material.textview.MaterialTextView
                         android:id="@+id/zoeyVoicesBio"
@@ -130,7 +130,7 @@
                         android:textAlignment="center"
                         android:textColor="@color/black"
                         android:layout_marginTop="12dp"
-                        android:text="Korean Voice Actor: , Singing Voice Actor: REI AMI"/>
+                        android:text="Korean Voice Actor: Ji-young Yoo, Singing Voice Actor: REI AMI"/>
 
                     <com.google.android.material.button.MaterialButton
                         android:id="@+id/zoeyMusicButton"
